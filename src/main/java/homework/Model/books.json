@@ -1,0 +1,107 @@
+[
+  {
+    "title": "sometitle",
+    "description": "somedescription",
+    "authors": [
+      {
+        "name": "name",
+        "lastName": "lastname"
+      },
+      {
+        "name": "name",
+        "lastName": "lastname"
+      }
+    ],
+    "publishingYear": 250
+  },
+  {
+    "title": "sometitle",
+    "description": "somedescription",
+    "authors": [
+      {
+        "name": "name",
+        "lastName": "lastname"
+      },
+      {
+        "name": "name",
+        "lastName": "lastname"
+      }
+    ],
+    "publishingYear": 250
+  },
+  {
+    "title": "sometitle",
+    "description": "somedescription",
+    "authors": [
+      {
+        "name": "name",
+        "lastName": "lastname"
+      },
+      {
+        "name": "name",
+        "lastName": "lastname"
+      }
+    ],
+    "publishingYear": 250
+  },
+  {
+    "title": "sometitle",
+    "description": "somedescription",
+    "authors": [
+      {
+        "name": "name",
+        "lastName": "lastname"
+      },
+      {
+        "name": "name",
+        "lastName": "lastname"
+      }
+    ],
+    "publishingYear": 250
+  },
+  {
+    "title": "sometitle",
+    "description": "somedescription",
+    "authors": [
+      {
+        "name": "name",
+        "lastName": "lastname"
+      },
+      {
+        "name": "name",
+        "lastName": "lastname"
+      }
+    ],
+    "publishingYear": 250
+  },
+  {
+    "title": "sometitle",
+    "description": "somedescription",
+    "authors": [
+      {
+        "name": "name",
+        "lastName": "lastname"
+      },
+      {
+        "name": "name",
+        "lastName": "lastname"
+      }
+    ],
+    "publishingYear": 250
+  },
+  {
+    "title": "sometitle",
+    "description": "somedescription",
+    "authors": [
+      {
+        "name": "name",
+        "lastName": "lastname"
+      },
+      {
+        "name": "name",
+        "lastName": "lastname"
+      }
+    ],
+    "publishingYear": 250
+  }
+]
