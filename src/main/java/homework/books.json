@@ -1,107 +1,99 @@
 [
   {
-    "title": "sometitle",
-    "description": "somedescription",
+    "title": "Как не вылететь из вышки",
+    "description": "Пособие как не ударить в грязь лицом в лучшем университете страны",
     "authors": [
       {
-        "name": "name",
-        "lastName": "lastname"
-      },
-      {
-        "name": "name",
-        "lastName": "lastname"
+        "name": "Миша",
+        "lastName": "Демков"
       }
     ],
-    "publishingYear": 250
+    "publishingYear": 2022
   },
   {
-    "title": "sometitle",
-    "description": "somedescription",
+    "title": "Java - the programming language",
+    "description": "Introduction to java. First part",
     "authors": [
       {
-        "name": "name",
-        "lastName": "lastname"
+        "name": "Ryan",
+        "lastName": "Gosling"
       },
       {
-        "name": "name",
-        "lastName": "lastname"
+        "name": "Margot",
+        "lastName": "Robbie"
       }
     ],
-    "publishingYear": 250
+    "publishingYear": 2001
   },
   {
-    "title": "sometitle",
-    "description": "somedescription",
+    "title": "Java - the programming language",
+    "description": "Introduction to java. Second part",
     "authors": [
       {
-        "name": "name",
-        "lastName": "lastname"
+        "name": "Ryan",
+        "lastName": "Gosling"
       },
       {
-        "name": "name",
-        "lastName": "lastname"
+        "name": "Margot",
+        "lastName": "Robbie"
       }
     ],
-    "publishingYear": 250
+    "publishingYear": 2003
   },
   {
-    "title": "sometitle",
-    "description": "somedescription",
+    "title": "Weird book",
+    "description": "Strange description",
     "authors": [
       {
-        "name": "name",
-        "lastName": "lastname"
+        "name": "First",
+        "lastName": "Person"
       },
       {
-        "name": "name",
-        "lastName": "lastname"
+        "name": "Second",
+        "lastName": "Person"
       }
     ],
-    "publishingYear": 250
+    "publishingYear": 228
   },
   {
-    "title": "sometitle",
-    "description": "somedescription",
+    "title": "Wednesday",
+    "description": "The book about a strange girl named Wednesday",
     "authors": [
       {
-        "name": "name",
-        "lastName": "lastname"
+        "name": "Riki",
+        "lastName": "Lindhome"
       },
       {
-        "name": "name",
-        "lastName": "lastname"
+        "name": "Jenna",
+        "lastName": "Ortega"
       }
     ],
-    "publishingYear": 250
+    "publishingYear": 2022
   },
   {
-    "title": "sometitle",
-    "description": "somedescription",
+    "title": "Looking for Alaska",
+    "description": "Looking for Alaska follows the novel's main character and narrator Miles Halter, or \"Pudge,\" to boarding school where he goes to seek a \"Great Perhaps,\" the famous last words of François Rabelais. Throughout the 'Before' section of the novel, Miles and his friends Chip \"The Colonel\" Martin, Alaska Young, and Takumi Hikohito grow very close and the section culminates in Alaska's death. In the second half of the novel, Miles and his friends work to discover the missing details of the night Alaska died. While struggling to reconcile Alaska's death, Miles grapples with the last words of Simón Bolívar and the meaning of life, leaving the conclusion to these topics unresolved.",
     "authors": [
       {
-        "name": "name",
-        "lastName": "lastname"
-      },
-      {
-        "name": "name",
-        "lastName": "lastname"
+        "name": "John",
+        "lastName": "Green"
       }
     ],
-    "publishingYear": 250
+    "publishingYear": 2005
   },
   {
-    "title": "sometitle",
-    "description": "somedescription",
+    "title": "The книга",
+    "description": "Просто книга",
     "authors": [
       {
-        "name": "name",
-        "lastName": "lastname"
+        "name": "Некто",
+        "lastName": "Некий"
       },
       {
-        "name": "name",
-        "lastName": "lastname"
+        "name": "Некий",
+        "lastName": "Некто"
       }
     ],
-    "publishingYear": 250
+    "publishingYear": 2000
   }
 ]

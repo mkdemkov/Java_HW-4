@@ -7,10 +7,11 @@ public class Book {
     private String title;
     private String description; // описание книги
     private ArrayList<String> authors; // авторы
-    private int publishingYear; // год издания
+    private Long publishingYear; // год издания
 
     /**
      * Получить название книги
+     *
      * @return название книги
      */
     public String getTitle() {
@@ -42,19 +43,31 @@ public class Book {
      *
      * @return год издания
      */
-    public int getPublishingYear() {
+    public Long getPublishingYear() {
         return publishingYear;
     }
 
-    public Book(String title, String description, ArrayList<String> authors, int publishingYear) {
+    public Book(String title, String description, ArrayList<String> authors, Long publishingYear) {
         this.title = title;
         this.description = description;
         this.authors = authors;
         this.publishingYear = publishingYear;
     }
 
-    public void printBook() {
-        // нужен фикс при выводе авторов
-        System.out.printf("\"%s\" была выпущена в %d году авторами - %s", title, publishingYear, authors.toString());
+    /**
+     * фактически переопределение toString для нашего класса
+     * @return вывод книги в нужном формате
+     */
+    public String toString() {
+        String res;
+        // просто заморочка с согласованием падежей ))
+        if (authors.size() == 1) {
+            res = (String.format("\"%s\" была выпущена в %d году автором %s\n", title, publishingYear,
+                    String.join(", ", authors)));
+            return res;
+        }
+        res = (String.format("\"%s\" была выпущена в %d году авторами %s\n", title, publishingYear,
+                String.join(", ", authors)));
+        return res;
     }
 }
