@@ -2,6 +2,9 @@ package homework;
 
 import homework.Model.Book;
 import homework.Json.JsonParser;
+import homework.Model.BookReader;
+import homework.Model.Library;
+import homework.Static.ParseInput;
 
 import java.util.ArrayList;
 
@@ -10,9 +13,9 @@ public class Main {
         try {
             JsonParser jsonParser = new JsonParser("src/main/java/homework/Json/books.json"); // создаем объект нашего класса
             ArrayList<Book> books = jsonParser.getBooksFromJson(); // получаем список книг из json файла
-            for (Book book : books) {
-                System.out.println(book);
-            }
+            Library library = new Library(books);
+            BookReader bookReader = new BookReader(ParseInput.parseReaderName(), books);
+            System.out.println(bookReader);
         } catch (Exception ex) {
             System.out.println(ex.getMessage());
         }
