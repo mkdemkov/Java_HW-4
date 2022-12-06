@@ -1,4 +1,4 @@
-package homework.Static;
+package homework.Json;
 
 import homework.Model.Book;
 import org.json.simple.JSONArray;
