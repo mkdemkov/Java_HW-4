@@ -25,15 +25,15 @@ public class ParseInput {
                 String name = parseBookName(command);
                 bookReader.getBook(library, name);
             } else if (command.startsWith("/list")) {
-                bookReader.getAllBooks();
-            } else if (command.startsWith("/put")) {
+                bookReader.showAllBooks();
+            } else if ("/put".equals(command)) {
                 bookReader.putBook(library);
             } else if (command.startsWith("/all")) {
                 library.getAllBooks();
             } else {
                 System.out.println("Неверная команда");
-                System.out.println(Constants.COMMANDS);
             }
+            System.out.println(Constants.COMMANDS);
             command = scanner.nextLine();
         } while (!"/exit".equals(command));
     }
