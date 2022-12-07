@@ -7,11 +7,22 @@ public class BookReader {
 
     private final String name;
 
-    private ArrayList<Book> books;
+    private ArrayList<Book> books = new ArrayList<>();
 
-    public BookReader(String name, ArrayList<Book> books) {
+    public BookReader(String name) {
         this.name = name;
-        this.books = books;
+    }
+
+    public void getBook(Library library, String name) {
+
+    }
+
+    public void getAllBooks() {
+
+    }
+
+    public void putBook(Library library) {
+
     }
 
     public String toString() {

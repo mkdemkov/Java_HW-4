@@ -14,8 +14,8 @@ public class Main {
             JsonParser jsonParser = new JsonParser("src/main/java/homework/Json/books.json"); // создаем объект нашего класса
             ArrayList<Book> books = jsonParser.getBooksFromJson(); // получаем список книг из json файла
             Library library = new Library(books);
-            BookReader bookReader = new BookReader(ParseInput.parseReaderName(), books);
-            System.out.println(bookReader);
+            BookReader bookReader = new BookReader(ParseInput.parseReaderName());
+            ParseInput.parseCommands(bookReader, library);
         } catch (Exception ex) {
             System.out.println(ex.getMessage());
         }
