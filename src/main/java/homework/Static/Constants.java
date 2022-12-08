@@ -5,6 +5,9 @@ public class Constants {
         throw new RuntimeException("Нельзя создать объект этого класса");
     }
 
+    /**
+     * Список доступных команд
+     */
     public static final String COMMANDS = """
             Список доступных команд:\040\040
              /get book_name - взять книгу из библиотеки\040\040

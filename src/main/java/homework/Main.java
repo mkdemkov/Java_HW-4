@@ -16,6 +16,7 @@ public class Main {
             Library library = new Library(books);
             BookReader bookReader = new BookReader(ParseInput.parseReaderName());
             ParseInput.parseCommands(bookReader, library);
+            // обработка возможного экспешна
         } catch (Exception ex) {
             System.out.println(ex.getMessage());
         }
